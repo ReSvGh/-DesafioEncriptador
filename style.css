@@ -1,0 +1,100 @@
+body {
+    background: #AA076B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+label, input, button {
+    margin: 10px;
+    color:#8becfd;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: -1px -1px 1px #000000;
+    text-shadow: rgb(0, 217, 255) 1px 0 10px;
+    
+}
+.por{
+    color:#8be9fa;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: rgb(0, 217, 255) 1px 0 10px;
+    -webkit-text-stroke: 0.2px black;
+    margin-top: .1px;
+    
+    
+}
+
+
+  
+button {
+    text-align: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+     
+    font-family: Phantomsans, sans-serif;
+    font-size: 12px;
+    
+    line-height: 3em;
+    max-width: 100%;
+    min-width: 10px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+
+   }
+   
+   button:active,
+   button:hover {
+    outline: 0;
+   }
+   
+   button span {
+    background-color: rgb(5, 6, 45);
+    padding: 10px 15px;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    
+   }
+   
+   button:hover span {
+    background: none;
+   }
+   
+   button:active {
+    transform: scale(0.9);
+   }
+   .header{
+-webkit-text-stroke: .40px black;
+  font-size: 15px;  
+  background: -webkit-linear-gradient(left top, rgb(225, 0, 255), #8becfd);
+  background: linear-gradient(to bottom right, rgb(225, 0, 255), #8becfd);
+  background-clip: text;  
+  -webkit-text-fill-color: transparent; 
+  text-shadow: #8becfd 1px 0 10px;
+   }
+.textoA{
+    /* background-color: #fff; */
+    border-radius: 5px;
+    box-shadow:0px 5px 20px rgba(0, 0,0,0.30);
+    
+    
+}
+a img{
+    margin:8px;
+    width: 40px;
+}
